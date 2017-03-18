@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8ADF981E7CEACF008E55C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ADF971E7CEACF008E55C9 /* AppDelegate.swift */; };
+		3E8ADF9A1E7CEAD0008E55C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ADF991E7CEAD0008E55C9 /* ViewController.swift */; };
+		3E8ADF9D1E7CEAD0008E55C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ADF9B1E7CEAD0008E55C9 /* Main.storyboard */; };
+		3E8ADF9F1E7CEAD0008E55C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ADF9E1E7CEAD0008E55C9 /* Assets.xcassets */; };
+		3E8ADFA21E7CEAD0008E55C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8ADFA01E7CEAD0008E55C9 /* LaunchScreen.storyboard */; };
+		3E8ADFAD1E7CEAD0008E55C9 /* RemiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ADFAC1E7CEAD0008E55C9 /* RemiderTests.swift */; };
+		3E8ADFB81E7CEAD1008E55C9 /* RemiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ADFB71E7CEAD1008E55C9 /* RemiderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8ADFA91E7CEAD0008E55C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8ADF8C1E7CEACF008E55C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8ADF931E7CEACF008E55C9;
+			remoteInfo = Remider;
+		};
+		3E8ADFB41E7CEAD1008E55C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8ADF8C1E7CEACF008E55C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8ADF931E7CEACF008E55C9;
+			remoteInfo = Remider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E8ADF941E7CEACF008E55C9 /* Remider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8ADF971E7CEACF008E55C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E8ADF991E7CEAD0008E55C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E8ADF9C1E7CEAD0008E55C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E8ADF9E1E7CEAD0008E55C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E8ADFA11E7CEAD0008E55C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E8ADFA31E7CEAD0008E55C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8ADFA81E7CEAD0008E55C9 /* RemiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8ADFAC1E7CEAD0008E55C9 /* RemiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemiderTests.swift; sourceTree = "<group>"; };
+		3E8ADFAE1E7CEAD1008E55C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8ADFB31E7CEAD1008E55C9 /* RemiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8ADFB71E7CEAD1008E55C9 /* RemiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemiderUITests.swift; sourceTree = "<group>"; };
+		3E8ADFB91E7CEAD1008E55C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8ADF911E7CEACF008E55C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFA51E7CEAD0008E55C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFB01E7CEAD1008E55C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8ADF8B1E7CEACF008E55C9 = {
+			isa = PBXGroup;
+			children = (
+				3E8ADF961E7CEACF008E55C9 /* Remider */,
+				3E8ADFAB1E7CEAD0008E55C9 /* RemiderTests */,
+				3E8ADFB61E7CEAD1008E55C9 /* RemiderUITests */,
+				3E8ADF951E7CEACF008E55C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8ADF951E7CEACF008E55C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8ADF941E7CEACF008E55C9 /* Remider.app */,
+				3E8ADFA81E7CEAD0008E55C9 /* RemiderTests.xctest */,
+				3E8ADFB31E7CEAD1008E55C9 /* RemiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8ADF961E7CEACF008E55C9 /* Remider */ = {
+			isa = PBXGroup;
+			children = (
+				3E8ADF971E7CEACF008E55C9 /* AppDelegate.swift */,
+				3E8ADF991E7CEAD0008E55C9 /* ViewController.swift */,
+				3E8ADF9B1E7CEAD0008E55C9 /* Main.storyboard */,
+				3E8ADF9E1E7CEAD0008E55C9 /* Assets.xcassets */,
+				3E8ADFA01E7CEAD0008E55C9 /* LaunchScreen.storyboard */,
+				3E8ADFA31E7CEAD0008E55C9 /* Info.plist */,
+			);
+			path = Remider;
+			sourceTree = "<group>";
+		};
+		3E8ADFAB1E7CEAD0008E55C9 /* RemiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8ADFAC1E7CEAD0008E55C9 /* RemiderTests.swift */,
+				3E8ADFAE1E7CEAD1008E55C9 /* Info.plist */,
+			);
+			path = RemiderTests;
+			sourceTree = "<group>";
+		};
+		3E8ADFB61E7CEAD1008E55C9 /* RemiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8ADFB71E7CEAD1008E55C9 /* RemiderUITests.swift */,
+				3E8ADFB91E7CEAD1008E55C9 /* Info.plist */,
+			);
+			path = RemiderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8ADF931E7CEACF008E55C9 /* Remider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8ADFBC1E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "Remider" */;
+			buildPhases = (
+				3E8ADF901E7CEACF008E55C9 /* Sources */,
+				3E8ADF911E7CEACF008E55C9 /* Frameworks */,
+				3E8ADF921E7CEACF008E55C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remider;
+			productName = Remider;
+			productReference = 3E8ADF941E7CEACF008E55C9 /* Remider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E8ADFA71E7CEAD0008E55C9 /* RemiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8ADFBF1E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "RemiderTests" */;
+			buildPhases = (
+				3E8ADFA41E7CEAD0008E55C9 /* Sources */,
+				3E8ADFA51E7CEAD0008E55C9 /* Frameworks */,
+				3E8ADFA61E7CEAD0008E55C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8ADFAA1E7CEAD0008E55C9 /* PBXTargetDependency */,
+			);
+			name = RemiderTests;
+			productName = RemiderTests;
+			productReference = 3E8ADFA81E7CEAD0008E55C9 /* RemiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E8ADFB21E7CEAD1008E55C9 /* RemiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8ADFC21E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "RemiderUITests" */;
+			buildPhases = (
+				3E8ADFAF1E7CEAD1008E55C9 /* Sources */,
+				3E8ADFB01E7CEAD1008E55C9 /* Frameworks */,
+				3E8ADFB11E7CEAD1008E55C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8ADFB51E7CEAD1008E55C9 /* PBXTargetDependency */,
+			);
+			name = RemiderUITests;
+			productName = RemiderUITests;
+			productReference = 3E8ADFB31E7CEAD1008E55C9 /* RemiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8ADF8C1E7CEACF008E55C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alejandro Díaz Vecchio";
+				TargetAttributes = {
+					3E8ADF931E7CEACF008E55C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EPC332S89C;
+						ProvisioningStyle = Automatic;
+					};
+					3E8ADFA71E7CEAD0008E55C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EPC332S89C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8ADF931E7CEACF008E55C9;
+					};
+					3E8ADFB21E7CEAD1008E55C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EPC332S89C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8ADF931E7CEACF008E55C9;
+					};
+				};
+			};
+			buildConfigurationList = 3E8ADF8F1E7CEACF008E55C9 /* Build configuration list for PBXProject "Remider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E8ADF8B1E7CEACF008E55C9;
+			productRefGroup = 3E8ADF951E7CEACF008E55C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8ADF931E7CEACF008E55C9 /* Remider */,
+				3E8ADFA71E7CEAD0008E55C9 /* RemiderTests */,
+				3E8ADFB21E7CEAD1008E55C9 /* RemiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8ADF921E7CEACF008E55C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8ADFA21E7CEAD0008E55C9 /* LaunchScreen.storyboard in Resources */,
+				3E8ADF9F1E7CEAD0008E55C9 /* Assets.xcassets in Resources */,
+				3E8ADF9D1E7CEAD0008E55C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFA61E7CEAD0008E55C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFB11E7CEAD1008E55C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8ADF901E7CEACF008E55C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8ADF9A1E7CEAD0008E55C9 /* ViewController.swift in Sources */,
+				3E8ADF981E7CEACF008E55C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFA41E7CEAD0008E55C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8ADFAD1E7CEAD0008E55C9 /* RemiderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8ADFAF1E7CEAD1008E55C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8ADFB81E7CEAD1008E55C9 /* RemiderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E8ADFAA1E7CEAD0008E55C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8ADF931E7CEACF008E55C9 /* Remider */;
+			targetProxy = 3E8ADFA91E7CEAD0008E55C9 /* PBXContainerItemProxy */;
+		};
+		3E8ADFB51E7CEAD1008E55C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8ADF931E7CEACF008E55C9 /* Remider */;
+			targetProxy = 3E8ADFB41E7CEAD1008E55C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E8ADF9B1E7CEAD0008E55C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8ADF9C1E7CEAD0008E55C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E8ADFA01E7CEAD0008E55C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8ADFA11E7CEAD0008E55C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E8ADFBA1E7CEAD1008E55C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E8ADFBB1E7CEAD1008E55C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E8ADFBD1E7CEAD1008E55C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = Remider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.Remider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E8ADFBE1E7CEAD1008E55C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = Remider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.Remider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E8ADFC01E7CEAD1008E55C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = RemiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.RemiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remider.app/Remider";
+			};
+			name = Debug;
+		};
+		3E8ADFC11E7CEAD1008E55C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = RemiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.RemiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remider.app/Remider";
+			};
+			name = Release;
+		};
+		3E8ADFC31E7CEAD1008E55C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = RemiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.RemiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remider;
+			};
+			name = Debug;
+		};
+		3E8ADFC41E7CEAD1008E55C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EPC332S89C;
+				INFOPLIST_FILE = RemiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldiazve.RemiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8ADF8F1E7CEACF008E55C9 /* Build configuration list for PBXProject "Remider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8ADFBA1E7CEAD1008E55C9 /* Debug */,
+				3E8ADFBB1E7CEAD1008E55C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8ADFBC1E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "Remider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8ADFBD1E7CEAD1008E55C9 /* Debug */,
+				3E8ADFBE1E7CEAD1008E55C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E8ADFBF1E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "RemiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8ADFC01E7CEAD1008E55C9 /* Debug */,
+				3E8ADFC11E7CEAD1008E55C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E8ADFC21E7CEAD1008E55C9 /* Build configuration list for PBXNativeTarget "RemiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8ADFC31E7CEAD1008E55C9 /* Debug */,
+				3E8ADFC41E7CEAD1008E55C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E8ADF8C1E7CEACF008E55C9 /* Project object */;
+}
